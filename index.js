@@ -66,7 +66,7 @@ let generateVanityAddress = (matchString) => {
 //TEST CASES
 
 //Test Case 1
-let matchString = 'boy'
+let matchString = 'waseem'
 
 console.log('Test 1: Vanity Address Generator matching string: ' + matchString)
 console.log(generateVanityAddress(matchString));
