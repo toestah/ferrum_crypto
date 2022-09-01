@@ -3,6 +3,7 @@ const crypto = require('crypto')
 const ripemd160 = require('ripemd160')
 const bs58 = require('bs58');
 
+// function to shuffle the order of hex characters to promote randomness when generating private key
 let shuffle = (array) => {
     return array.sort(() => Math.random() - 0.5);
 }
